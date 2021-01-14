@@ -1,0 +1,4 @@
+add_executable(test_gain_target test_gain.cpp)
+target_link_libraries(test_gain_target unity)
+target_link_libraries(test_gain_target gain)
+add_test(NAME test_gain COMMAND test_gain_target)

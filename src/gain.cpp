@@ -1,12 +1,12 @@
 #include <gain.h>
-#include <iostream>
+// #include <iostream>
 
 Gain::Gain() {
-    std::cout << "Gain constructor" << std::endl;
+    // std::cout << "Gain constructor" << std::endl;
 }
 
 void Gain::setGain(float gain) {
-    if (gain >= 0.f);
+    if (gain >= 0.f)
         m_gain = gain;
 }
 
